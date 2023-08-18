@@ -4,13 +4,25 @@
 <listeners>
 <listener class-name="com.qa.opencart.listeners.ExtentReportListener"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.qa.opencart.tests.RegisterPageTest"/>
-      <class name="com.qa.opencart.tests.SearchResultsPageTest"/>
-     
+  <test name="Login Page Test">
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+    
+    <test name="Accounts Page Test">
+		<classes>
+			<class name="com.qa.opencart.tests.AccountsPageTest" />
+		</classes>
+	</test> 
+	
+	<test name="ProductInfo Page Test">
+		<classes>
+			<class name="com.qa.opencart.tests.ProductInfoTest" />
+		</classes>
+	</test> 
       
-    </classes>
-  </test> 
+   
+  
 </suite> 
 

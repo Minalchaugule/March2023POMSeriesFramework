@@ -5,7 +5,6 @@
     <classes>
       <class name="com.qa.opencart.tests.RegisterPageTest"/>
       <class name="com.qa.opencart.tests.SearchResultsPageTest"/>
-      <class name="com.qa.opencart.pages.ProductInfoPage"/>
       <class name="com.qa.opencart.tests.AccountPageTest"/>
       <class name="com.qa.opencart.tests.LoginPageTest"/>
       <class name="com.qa.opencart.tests.ProductInfoTest"/>

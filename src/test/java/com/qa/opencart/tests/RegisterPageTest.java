@@ -62,6 +62,7 @@ ExcelUtil excellUtil;
 	
 	@DataProvider
 	public Object[][] getUserRegSheetData() {
+	
 		return ExcelUtil.getTestData(AppConstant.SHEET_NAME);
 	}	
 	

@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtil {
 	
-	public static final String TESTDATA_SHEET_PATH=".src/test/resources/testData/OpenCart_TestData.xlsx";
+	public static final String TESTDATA_SHEET_PATH="C:\\Users\\sandy\\eclipse\\March2023POMSeries\\src\\test\\resources\\testData\\OpenCart_TestData.xlsx";
 	
 	public static Workbook book;
 	public static Sheet sheet;
@@ -25,6 +25,7 @@ public static Object[][] getTestData(String sheetName) {
 		Object data[][] = null;
 		
 		try {
+			System.out.println(TESTDATA_SHEET_PATH);
 			FileInputStream ip = new FileInputStream(TESTDATA_SHEET_PATH);
 			book = WorkbookFactory.create(ip);
 			sheet = book.getSheet(sheetName);
