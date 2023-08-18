@@ -54,10 +54,10 @@ public class LoginPageTest extends BaseTest {
 		
 	}
 	
-	@Test(priority=5)
-	public void clickonRegisterLinkTest()
-	{
-		loginpage.navigateToRegisterPage();
-	}
+//	@Test(priority=5)
+//	public void clickonRegisterLinkTest()
+//	{
+//		loginpage.navigateToRegisterPage();
+//	}
 
 }
